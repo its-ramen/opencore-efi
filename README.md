@@ -22,12 +22,14 @@ Default from OpenCore
 
 #### Drivers
 | Driver | Description |
+|--------|-------------|
 |HfsPlus.efi | so that OpenCore can read HFS partitions like TimeMachine and Install MacOS installers |
 |OpenCanopy.efi | for a clean, graphical boot picker |
 |OpenRuntime.efi | standard for OpenCore |
 
 #### Kexts
 | kext | Description |
+|------|-------------|
 | AppleALC.kext | enables macOS HD audio |
 | Lilu.kext | kext, library, and program patching |
 | SmallTreeIntel82576.kext | this is required for the NIC card on the motherboard
