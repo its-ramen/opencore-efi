@@ -21,16 +21,18 @@ If you have this motherboard in your hackintosh build, this should work for you.
 Default from OpenCore
 
 #### Drivers
-HfsPlus.efi so that OpenCore can read HFS partitions like TimeMachine and Install MacOS installers
-OpenCanopy.efi for a clean, graphical boot picker
-OpenRuntime.efi standard for OpenCore
+| Driver | Description |
+|HfsPlus.efi | so that OpenCore can read HFS partitions like TimeMachine and Install MacOS installers |
+|OpenCanopy.efi | for a clean, graphical boot picker |
+|OpenRuntime.efi | standard for OpenCore |
 
 #### Kexts
-AppleALC.kext
-Lilu.kext
-SmallTreeIntel82576.kext this is required for the NIC card on the motherboard
-VirtualSMC.kext
-WhateverGreen.kext
+| kext | Description |
+| AppleALC.kext | enables macOS HD audio |
+| Lilu.kext | kext, library, and program patching |
+| SmallTreeIntel82576.kext | this is required for the NIC card on the motherboard
+| VirtualSMC.kext | SMC (system management controller) emulator |
+| WhateverGreen.kext | patching for GPUs (In my case, RX 580) |
 
 #### Resources
 Contains resources for the OpenCanopy GUI boot picker. You can customize its appearance by changing these files.
