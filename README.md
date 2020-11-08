@@ -1,5 +1,5 @@
 # OpenCore-Efi
-This is an OpenCore implemenation for a custom build PC. Be sure to remove the .DS_Store files as these are just folder indeces used by MacOS.
+This is an OpenCore implemenation for a custom build PC.
 If you have a similar system, download the contents of the OpenCore 0.6.2 folder, and extract it to a folder called "EFI" in your EFI partition.
 See https://dortania.github.io/OpenCore-Install-Guide/ for more details.
 The config.plist was configured with minimalism and security as the primary design goals.
